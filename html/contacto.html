@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+main section form  {
+    width: 50%;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #33BFBC;
+}
+body main section {
+    width: 80%;
+    background-color: transparent;
+}
+#form1 label {
+    font-weight: bold;
+    color: #134A49;
+}
+#form1 #f1_nombre , #form1 #email{
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    background-color: #E6EBE0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #ED6A6C;
+}
+#form1 #enviar {
+    width: 30%;
+    background-color: #ED6A6C;
+    padding: 5px;
+    margin: 0 auto;
+    color: #F4F1BB;
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Contacto</h1>
+&nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio&nbsp;</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="practicas.html">Practicas</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <form id="form1" name="form1" method="post">
+      <label for="f1_nombre">Nombre:</label>
+      <input name="f1_nombre" type="text" autofocus="autofocus" required="required" id="f1_nombre" tabindex="1" autocomplete="on" maxlength="100">
+      <label for="email">Email:</label>
+      <input name="email" type="email" autofocus="autofocus" id="email" tabindex="3" autocomplete="on">
+      <input name="enviar" type="submit" autofocus="autofocus" id="enviar" formaction="../index.html" formmethod="GET" tabindex="2" value="Enviar">
+    </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Yaret E. Ruiz Morales</h6>
+&nbsp;</footer>
+</body>
+</html>

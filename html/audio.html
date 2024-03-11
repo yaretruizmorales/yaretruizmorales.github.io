@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body main section {
+    width: 35%;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+    overflow-y: auto;
+}
+.iframe_audio {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Audios en html</h1>
+&nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio</a>&nbsp;</li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="practicas.html">Practicas</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tempore, excepturi minus nam, commodi, voluptatum unde aperiam esse sit error illum deleniti velit laboriosam? Possimus veniam et vitae sint. Deserunt.</p>
+    <audio controls>
+      <source src="../audio/Little Umbrellas - TrackTribe.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio con reproduccion ciclica</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tempore, excepturi minus nam, commodi, voluptatum unde aperiam esse sit error illum deleniti velit laboriosam? Possimus veniam et vitae sint. Deserunt.</p>
+    <audio controls="controls" loop="loop" >
+      <source src="../audio/Little Umbrellas - TrackTribe.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio silencia y con autoreproduccion</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident tempore, excepturi minus nam, commodi, voluptatum unde aperiam esse sit error illum deleniti velit laboriosam? Possimus veniam et vitae sint. Deserunt.</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../audio/Little Umbrellas - TrackTribe.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio de banco de audios</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed iusto expedita perferendis inventore modi tempore ducimus, ab quisquam id molestiae tempora repellendus incidunt ex aut, porro. Mollitia dolorem saepe dolor.</p>
+	<iframe src='https://www.ivoox.com/player_ej_3047566_6_1.html?c1=ED6A6C' height='200' scrolling='no' frameborder='0' class="iframe_audio" style='width:80%;' allowfullscreen='' loading='lazy'></iframe>  
+  </section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Yaret E. Ruiz Morales</h6>
+&nbsp;</footer>
+</body>
+</html>
