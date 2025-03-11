@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@font-face{
+    font-family: "yaret";
+    src: url("../fonts/HelloValentina.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header,nav,main,footer{
+    width: 100%;
+    padding:50px;
+    background-color: green;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    height: auto;
+    font-family:"yaret";
+    letter-spacing: 10px;
+}
+nav{
+    height: auto;
+    background-color: greenyellow;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 8%;
+    min-width: 100px;
+    background-color: beige;
+    padding: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color: darkgreen;
+}
+main{
+    height: auto;
+    background-color: lightgreen;
+}
+footer{
+    height: auto;
+}
+section{
+    width: 80%;
+    background-color: beige;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section h2{
+    margin-bottom: 30px;
+    font-family: "Coiny", system-ui;
+    font-size: 32px;
+    color: darkgreen;
+    letter-spacing: 10px;
+}
+
+header h1, footer h6{
+    font-size: 48px;
+    color: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+footer h6{
+    font-size: 18px;
+}
+main section img{
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-border-redondo{
+    border-radius: 50%;
+}
+
+main section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.img-flotantes{
+    width: 20%;
+    float: left;
+    margin-top:0px;
+    margin-right: 20px;
+}
+.img-floatante-der{
+    float: right;
+}
+.fondo{
+    background-image: url(imagenes/abstract-5258203_640.png);
+}
+.section-filtros{
+    color: greenyellow;
+    text-align: center;
+    
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: darkolivegreen;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+label{
+    color: bisque;
+    font-weight: bold;
+    font-size: 18px;
+}
+input,textarea,select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px; 
+    background-color: darkseagreen;
+    color:bisque;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: bisque;
+    font-weight: bold;
+    color: darkgreen;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus{
+    background-color: bisque;
+    color: green;
+}
+input[type=radio], input[type=checkbox]{
+    width: 10%;
+}
